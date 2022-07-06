@@ -1,0 +1,65 @@
+! Sxiv Settings
+Sxiv.background: #2F343F
+Sxiv.foreground: #5E81AC
+Sxiv.font: Hack Nerd Font Mono:Bold:size=12
+
+
+! FOR ALL OTHER PROGRAMS USE XRESOURCES
+! This includes xterm and urxvt
+
+! *.foreground:   #5E81AC
+! *.background:   #2F343F
+! *.cursorColor:  #bbc2cf
+
+*.foreground:   #bbc2cf
+*.background:   #282c34
+*.cursorColor:  #bbc2cf
+
+! black
+*.color0:       #1c1f24
+*.color8:       #5b6268
+
+! red
+*.color1:       #ff6c6b
+*.color9:       #da8548
+
+! green
+*.color2:       #98be65
+*.color10:      #4db5bd
+
+! yellow
+*.color3:       #da8548
+*.color11:      #ecbe7b
+
+! blue
+*.color4:       #51afef
+*.color12:      #3071db
+
+! magenta
+*.color5:       #c678dd
+*.color13:      #a9a1e1
+
+! cyan
+*.color6:       #5699af
+*.color14:      #46d9ff
+
+! white
+*.color7:       #202328
+*.color15:      #dfdfdf
+! SETTINGS
+
+*.font: xft:Hack Nerd Font Mono:style=Regular:size=8
+
+! Urxvt Settings
+URxvt.scrollBar: false
+URxvt.scrollBar_right: false
+URxvt*depth: 32
+URxvt.background: [80]#000000
+URxvt*internalBorder: 50
+urxvt.iso14755: false
+urxvt.keysym.Shift-Control-V: eval:paste_clipboard
+urxvt.keysym.Shift-Control-C: eval:selection_to_clipboard
+URxvt.perl-ext-common: default,matcher
+URxvt.url-launcher: /usr/bin/xdg-open
+URxvt.matcher.button: 1
+
