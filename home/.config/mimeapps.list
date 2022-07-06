@@ -1,0 +1,14 @@
+[Added Associations]
+image/webp=sxiv.desktop;
+inode/directory=userapp-sxiv -t -r *-ITCSL1.desktop;userapp-sxiv -t -r -N *-20STL1.desktop;userapp-sxiv -t -r -i *-9J8ML1.desktop;
+image/jpeg=userapp-sxiv -t -r -N *-Q1PML1.desktop;
+
+[Default Applications]
+application/x-shellscript=vim.desktop
+text/plain=vim.desktop
+application/x-riff=mpv.desktop
+image/png=sxiv.desktop
+inode/directory=userapp-sxiv -t -r *-ITCSL1.desktop
+image/jpeg=userapp-sxiv -t -r -N *-Q1PML1.desktop
+
+[Removed Associations]
