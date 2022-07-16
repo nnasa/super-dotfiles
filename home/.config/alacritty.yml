@@ -24,7 +24,7 @@ font:
   bold_italic:
     family: Hack Nerd Font Mono
     style: BoldItalic
-  size: 10
+  size: 9
 draw_bold_text_with_bright_colors: true
 
 # Copyright (c) 2017-present Arctic Ice Studio <development@arcticicestudio.com>
