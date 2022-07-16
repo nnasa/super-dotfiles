@@ -13,18 +13,18 @@ scrolling:
 
 font:
   normal:
-    family: Hack
+    family: Hack Nerd Font Mono
     style:  Regular
   bold:
-    family: Hack
+    family: Hack Nerd Font Mono
     style:  Bold
   italic:
-    family: Hack
+    family: Hack Nerd Font Mono
     style:  MediumItalic
   bold_italic:
-    family: Hack
+    family: Hack Nerd Font Mono
     style: BoldItalic
-  size: 9
+  size: 10
 draw_bold_text_with_bright_colors: true
 
 # Copyright (c) 2017-present Arctic Ice Studio <development@arcticicestudio.com>
