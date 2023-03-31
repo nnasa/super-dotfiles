@@ -13,7 +13,7 @@
   red: #D54E53;
   green: #A9AC00;
 
-  font: "Hack Nerd Font Mono Bold 9";
+  font: "Hack Nerd Font Mono Bold 11";
 }
 #window {
   anchor: north;
@@ -30,38 +30,38 @@
 }
 #prompt {
   text-color: @green;
-  padding: 3px 0px 0px 5px;
+  padding: 1px 0px 0px 4px;
   background-color: @transparent;
 }
 #textbox-prompt-colon  {
   expand: false;
   str: ":";
-  padding: 3px 2px 2px 2px;
+  padding: 1px 1px 1px 1px;
   text-color: @red;
   background-color: @transparent;
 }
 #entry {
-  padding: 3px 2px 2px 2px;
+  padding: 1px 0px 0px 2px;
   background-color: @blue;
   text-color: @gray;
   expand: false;
   width: 10em;
 }
 #listview {
-  background-color: @gray;
-  padding: 3px 0px 0px 0px;
+  background-color: @transparent;
+  padding: 1px 0px 0px 0px;
   layout: horizontal;
   spacing: 0px;
-  lines: 1000;
+  width: 100%;
 }
 element {
-  background-color: @gray;
-  padding: 0px 0px 0px 5px;
-  spacing: 2px;
+  background-color: transparent;
+  padding: 0px 0px 0px 0px;
+  spacing: 0px;
 }
 #element normal normal{
   background-color: @gray;
-  spacing: 5px;
+  spacing: 0px;
 }
 element-icon {
   background-color: @transparent;
