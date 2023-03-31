@@ -5,13 +5,12 @@
 ### AUTO_START ###
 
 /lib/polkit-gnome/polkit-gnome-authentication-agent-1 &
+compton --backend glx --unredir-if-possible &
 # picom --experimental-backends &
 # feh --bg-fill Pictures/Wallpaper/SCANDAL-crate.jpg
 $HOME/.config/polybar/launch.sh &
 nm-applet &
 pgrep -x sxhkd > /dev/null || sxhkd &
-# mpd &
-
 
 ### MONITORS ###
 bspc wm -O HDMI-1 DP-2
