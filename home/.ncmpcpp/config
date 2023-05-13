@@ -9,7 +9,7 @@
     mpd_port = "6600"        
     mpd_music_dir = /run/media/nnasa/NKOTB/MUSIC/SONG
     mpd_crossfade_time = "5"
-    ncmpcpp_directory  = ~/.ncmpcpp   
+    ncmpcpp_directory  = ~/.config/ncmpcpp   
                                      
                             30 
     # visualizer
