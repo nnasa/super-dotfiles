@@ -1,14 +1,12 @@
-
+# sxhkdrc #
 
 # wm independent hotkeys
 #####################################
 
 # terminal emulator
 super + Return
-	st
-
-# super + Return
-	# alacritty
+	alacritty
+	# st
 
 # internet browser
 super + alt + w
@@ -23,7 +21,7 @@ super + alt + f
 	pcmanfm
 
 super + alt + r
-	st -e ranger
+	alacritty -e ranger
 
 XF86Calculator
 
@@ -36,8 +34,12 @@ super + @space
 	rofi -show drun -theme nnvsv-dmenu-dark
 	
 # make sxhkd reload its configuration files:
-super + Escape
+super + shift + Escape
 	pkill -USR1 -x sxhkd
+
+#reload polybar
+super + shift + p
+	~/.config/polybar/launch.sh
 
 # lock screen
 super + x
@@ -79,7 +81,7 @@ XF86AudioNext
 #####################################
 
 # quit/restart bspwm
-super + alt + {q,r}
+super + shift + {q,r}
 	bspc {quit,wm -r}
 
 # close and kill
