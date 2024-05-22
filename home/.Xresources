@@ -1,8 +1,7 @@
 ! Sxiv Settings
-Sxiv.background: #2F343F
-Sxiv.foreground: #5E81AC
-Sxiv.font: Hack Nerd Font Mono:Bold:size=12
-
+Sxiv.background: #323232
+Sxiv.foreground: #BEBEBE
+Sxiv.font: JetBrainsMono Nerd Font-9
 
 ! FOR ALL OTHER PROGRAMS USE XRESOURCES
 ! This includes xterm and urxvt
