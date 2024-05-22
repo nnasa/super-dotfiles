@@ -10,9 +10,11 @@ xrandr --dpi 98 &
 xset dpms 300 300 300 &
 xwallpaper --zoom /home/nnasa/Pictures/Wallpaper/NASA-blastoff.jpg &
 picom --backend glx --unredir-if-possible &
+redshift &
+
 /lib/polkit-gnome/polkit-gnome-authentication-agent-1 &
 # /lib/polkit-1/polkitd &
-redshift &
+
 slstatus &
 pgrep -x sxhkd > /dev/null || sxhkd &
 
