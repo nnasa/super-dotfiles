@@ -1,0 +1,14 @@
+syntax on				      " Turn syntax highlighting on.
+
+set number				    " Add numbers to each line on the left-hand side.
+" set relativenumber
+
+set cursorline			  " Highlight cursor line underneath the cursor vertically.
+" set cursorcolumn		" Highlight cursor line underneath the cursor horizontally.
+
+set hlsearch       		" highlight search terms
+set incsearch
+set ignorecase
+
+set tabstop=4      		" 1 tab = 4 spaces
+set shiftwidth=4   		" shift 4 spaces 
