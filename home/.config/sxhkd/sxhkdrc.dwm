@@ -1,0 +1,145 @@
+# sxhkdrc #
+
+# make sxhkd reload its configuration files
+super + shift + Escape
+	pkill -USR1 -x sxhkd
+
+
+# power management
+#####################################
+
+# logout
+alt + F2
+	st -e sudo pkill -u nnasa
+
+# reboot 
+alt + F3
+	st -e reboot
+
+# shutdown
+alt + F4
+	st -e poweroff
+
+
+# wm independent hotkeys
+#####################################
+
+# terminal emulator
+super + Return
+	st
+
+# internet browser
+super + alt + w
+	firefox
+
+# internet browser
+super + alt + o
+	opera
+
+# note
+super + alt + l
+	logseq
+
+# file manager
+super + alt + f
+	pcmanfm
+
+super + alt + r
+	st -e ranger
+
+# remote desktop
+
+super + alt + ctrl + r
+	remmina
+
+super + alt +  ctrl + d
+	rustdesk
+
+# alarm
+super + alt + a
+	alarm-clock-applet
+
+# F86Calculator
+
+
+# program launcher
+super + alt + d
+	dmenu_run 
+#	st -e $(dmenu_path | dmenu)
+
+# program launcher (Apps)
+# super + @space
+#	rofi -show drun -theme nnvsv-dmenu-dark
+	
+# lock screen
+super + x
+	slock
+
+# resources manager utility
+super + alt + h
+	st -e htop
+
+# audio utility
+super + alt + p
+	st -e pulsemixer
+
+
+# ncmpcpp/audio player(s) hotkeys 
+#####################################
+
+# ncmpcpp
+# XF86AudioMedia
+# F5
+super + alt + n
+	st -e ncmpcpp
+
+# stop playing
+# F6
+XF86AudioStop
+	playerctl stop
+
+# starts playing previous song
+# F7
+XF86AudioPrev
+	playerctl previous
+
+
+# toggles between play and pause, if stopped starts playing.
+# F8
+XF86AudioPlay
+	playerctl play-pause
+
+# starts playing next song on queue
+# F9
+XF86AudioNext
+	playerctl next
+
+
+# volume comtrol
+#####################################
+
+# volume control, if using dedicated media buttons
+XF86AudioMute
+	pactl set-sink-mute @DEFAULT_SINK@ toggle 
+XF86AudioLowerVolume
+	pactl set-sink-volume @DEFAULT_SINK@ -5% 
+XF86AudioRaiseVolume
+	pactl set-sink-volume @DEFAULT_SINK@ +5% 
+
+
+# volume control, if without dedicated media buttons
+# F10
+	# amixer set Master toggle
+# F11
+ 	# amixer set Master 5%-
+# F12
+	# amixer set Master 5%+
+
+
+# brightness control
+#####################################
+
+XF86MonBrightnessDown
+	sudo xbacklight -dec 5
+XF86MonBrightnessUp
+	sudo xbacklight -inc 5
