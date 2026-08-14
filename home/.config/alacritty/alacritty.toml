@@ -1,0 +1,30 @@
+[general]
+import = [
+    "~/.themes/themes/midnight_haze.toml"
+]
+
+[colors.primary]
+background = "0x101010"
+
+[cursor.style]
+blinking = "Always"
+shape = "Block"
+
+[font]
+size = 13.5
+
+[font.glyph_offset]
+x = 0
+y = 0
+
+[font.normal]
+family = "Ubuntu Sans Mono"
+# family = "Victor Mono"
+style = "Medium"
+
+[scrolling]
+history = 15000
+
+[window]
+decorations = "none"
+opacity = 0.7
