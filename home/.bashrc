@@ -9,7 +9,11 @@ alias ls='ls --color=auto'
 alias grep='grep --color=auto'
 PS1='[\u@\h \W]\$ '
 
+fastfetch
+
 export VISUAL=vim
 export EDITOR="$VISUAL"
 
-export OPENER='xdg-open'
+# export QT_QPA_PLATFORMTHEME="qt5ct"
+
+export PATH=$PATH:/home/nnasa/.spicetify
